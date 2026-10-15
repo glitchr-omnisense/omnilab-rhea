@@ -1,0 +1,46 @@
+{
+    "name": "omnilab/rhea",
+    "type": "library",
+    "description": "Omnilab Rhea: a biochemical reaction by any of its four Rhea ids (18157, 18160) or its KEGG reaction (R00200) - its equation, status, balance, transport, sides and their participants, citations - its quartet and KEGG reaction as identifiers, its ChEBI participants, EC numbers, GO term, Reactome events and the reviewed UniProt proteins that catalyse it as related things; a search; through Rhea's SPARQL endpoint and REST search, no key.",
+    "keywords": [
+        "science",
+        "chemistry",
+        "biochemistry",
+        "rhea",
+        "reactions",
+        "chebi",
+        "enzymes",
+        "omnilab"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnilab": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnilab\\Rhea\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnilab\\Rhea\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

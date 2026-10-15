@@ -1,0 +1,503 @@
+{
+  "head" : {
+    "vars" : [
+      "m",
+      "field",
+      "value",
+      "name",
+      "order",
+      "coefficient"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "accession"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "RHEA:18157"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "equation"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "pyruvate + ATP = phosphoenolpyruvate + ADP + H(+)"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "status"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/Approved"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "balanced"
+        },
+        "value" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+          "type" : "literal",
+          "value" : "true"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "transport"
+        },
+        "value" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#boolean",
+          "type" : "literal",
+          "value" : "false"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "ec"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://purl.uniprot.org/enzyme/2.7.1.40"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "citation"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://rdf.ncbi.nlm.nih.gov/pubmed/11994161"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "citation"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://rdf.ncbi.nlm.nih.gov/pubmed/15749828"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "citation"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://rdf.ncbi.nlm.nih.gov/pubmed/14389299"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "citation"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://rdf.ncbi.nlm.nih.gov/pubmed/10413488"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "citation"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://rdf.ncbi.nlm.nih.gov/pubmed/1854723"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "citation"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://rdf.ncbi.nlm.nih.gov/pubmed/13618030"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "citation"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://rdf.ncbi.nlm.nih.gov/pubmed/20520732"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "citation"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://rdf.ncbi.nlm.nih.gov/pubmed/14907737"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "citation"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://rdf.ncbi.nlm.nih.gov/pubmed/3711058"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "citation"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://rdf.ncbi.nlm.nih.gov/pubmed/39009072"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "citation"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://rdf.ncbi.nlm.nih.gov/pubmed/15996096"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "see_also"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://purl.obolibrary.org/obo/GO_0004743"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "directional"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18158"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "directional"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18159"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "bidirectional"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18160"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "see_also"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://identifiers.org/biocyc/ECOCYC:PEPDEPHOS-RXN"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "see_also"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://identifiers.org/biocyc/METACYC:PEPDEPHOS-RXN"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "see_also"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://identifiers.org/reactome/R-HSA-71670.9"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "see_also"
+        },
+        "value" : {
+          "type" : "uri",
+          "value" : "http://identifiers.org/kegg.reaction/R00200"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "participant"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "CHEBI:15361"
+        },
+        "order" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#long",
+          "type" : "literal",
+          "value" : "1"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "pyruvate"
+        },
+        "coefficient" : {
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "participant"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "CHEBI:30616"
+        },
+        "order" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#long",
+          "type" : "literal",
+          "value" : "1"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "ATP"
+        },
+        "coefficient" : {
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "participant"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "CHEBI:58702"
+        },
+        "order" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#long",
+          "type" : "literal",
+          "value" : "2"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "phosphoenolpyruvate"
+        },
+        "coefficient" : {
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "participant"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "CHEBI:456216"
+        },
+        "order" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#long",
+          "type" : "literal",
+          "value" : "2"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "ADP"
+        },
+        "coefficient" : {
+          "type" : "literal",
+          "value" : "1"
+        }
+      },
+      {
+        "m" : {
+          "type" : "uri",
+          "value" : "http://rdf.rhea-db.org/18157"
+        },
+        "field" : {
+          "type" : "literal",
+          "value" : "participant"
+        },
+        "value" : {
+          "type" : "literal",
+          "value" : "CHEBI:15378"
+        },
+        "order" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#long",
+          "type" : "literal",
+          "value" : "2"
+        },
+        "name" : {
+          "type" : "literal",
+          "value" : "H(+)"
+        },
+        "coefficient" : {
+          "type" : "literal",
+          "value" : "1"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "head" : {
+    "vars" : [
+      "m",
+      "field",
+      "value",
+      "name",
+      "order",
+      "coefficient"
+    ]
+  },
+  "results" : {
+    "bindings" : [ ]
+  }
+}
