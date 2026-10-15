@@ -33,7 +33,7 @@ names it.
 | `search()` | Rhea's REST search `rhea-db.org/rhea?query=...&format=json&limit=...&offset=...` - one more than the page asked, to know whether another follows (Rhea's `count` is the page's, not the total: no total) |
 
 The SPARQL query has no `DISTINCT` nor `LIMIT` in its sub-query: either took the endpoint over a
-minute on 2026-10-16, against about 3 s without. Rhea's REST "table" output (TSV) was not chosen
+minute on 2026-10-15, against about 3 s without. Rhea's REST "table" output (TSV) was not chosen
 for `entity()`: its text query matches other reactions too (`18157` also finds RHEA:32167), and it
 does not give a reaction's directions.
 
@@ -69,7 +69,7 @@ both configured, `$collector->collect('kegg', 'R00200')` follows R00200 into Rhe
 
 ## Verified, and not
 
-Against the real services on 2026-10-16: RHEA:18160 (the master 18157, its quartet, its five
+Against the real services on 2026-10-15: RHEA:18160 (the master 18157, its quartet, its five
 participants, EC 2.7.1.40, GO:0004743, R00200, R-HSA-71670, eleven citations, 111 reviewed
 proteins), the same reaction by R00200, an unknown id (no rows: null); the search for "pyruvate
 kinase" in two pages of three (six reactions), for a text nothing matches. The fixtures in

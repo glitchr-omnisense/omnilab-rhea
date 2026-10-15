@@ -100,7 +100,7 @@ final class RheaSource extends HttpSource
                       BIND(STRAFTER(STR(?c), "contains") AS ?coefficient) BIND("participant" AS ?field) }
             }
             SPARQL;
-        // No DISTINCT nor LIMIT in the sub-query: either takes Rhea's endpoint over a minute (2026-10-16), against 3 s.
+        // No DISTINCT nor LIMIT in the sub-query: either takes Rhea's endpoint over a minute (2026-10-15), against 3 s.
         $rows = $this->getJson($this->sparqlUri, ['query' => (string) preg_replace('~\s+~', ' ', $sparql)])['results']['bindings'] ?? [];
         if (!$rows) {
             return null;

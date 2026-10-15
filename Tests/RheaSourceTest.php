@@ -16,7 +16,7 @@ use Symfony\Component\HttpClient\MockHttpClient;
 use Symfony\Component\HttpClient\Response\MockResponse;
 
 /**
- * Fixtures recorded on 2026-10-16: Rhea's SPARQL answer for RHEA:18160
+ * Fixtures recorded on 2026-10-15: Rhea's SPARQL answer for RHEA:18160
  * (pyruvate kinase's reaction both ways, whose master is 18157 - the
  * same answer for its KEGG reaction R00200) and for an unknown id; the
  * reviewed UniProt proteins that catalyse it (25 of 111, UniProt
