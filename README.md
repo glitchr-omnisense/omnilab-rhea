@@ -1,7 +1,7 @@
 # omnilab/rhea
 
 Rhea, the expert-curated knowledgebase of biochemical reactions (SIB), for
-[omniscient/omnilab](https://github.com/glitchr-studio/omnilab): a reaction by any of its four ids -
+[omnisense/omnilab](https://github.com/glitchr-omnisense/omnilab): a reaction by any of its four ids -
 the master `18157`, its directions `18158`, `18159` and both ways `18160` - or by its KEGG reaction
 (`R00200`): its equation, status, balance, whether it is a transport, its two sides with their
 participants and coefficients, its citations; its four ids and its KEGG reaction as identifiers;
