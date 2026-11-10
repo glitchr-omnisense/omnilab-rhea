@@ -43,6 +43,17 @@ research, educational and informational purposes only", not for medical use. Rhe
 to send a contact address in their User-Agent (`mailto`). Cite Rhea as its help pages say ("How to
 cite us"). UniProt's answers (the proteins) are under CC BY 4.0 too.
 
+## Usage policy
+
+Declared as data in [`policy.json`](policy.json) (read at https://www.rhea-db.org/help/rest-api on 2026-11-10), and honoured on every request by the
+core: a limit reached waits when its window ends within `max_wait` seconds, else the request is not
+sent ([Usage policies](https://github.com/glitchr-omnisense/omnilab/blob/1.x/docs/policies.md)).
+
+- Limits: not published (unknown).
+- Licence: CC-BY-4.0; commercial use: allowed.
+- Credit: required: Rhea (SIB Swiss Institute of Bioinformatics) (https://www.rhea-db.org/help/license-disclaimer).
+- Needs: nothing.
+
 ## Responsibility
 
 This package is an independent, unofficial client: it is not affiliated with, endorsed by or

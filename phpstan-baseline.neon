@@ -1,0 +1,175 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\.$#'
+			identifier: foreach.nonIterable
+			count: 1
+			path: RheaSource.php
+
+		-
+			message: '#^Cannot access offset ''bindings'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: RheaSource.php
+
+		-
+			message: '#^Cannot access offset ''primaryAccession'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: RheaSource.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 2
+			path: RheaSource.php
+
+		-
+			message: '#^Parameter \#1 \$array of function array_slice expects array, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: RheaSource.php
+
+		-
+			message: '#^Parameter \#1 \$result of method Omnilab\\Rhea\\RheaSource\:\:fromSearch\(\) expects array\<string, mixed\>, array\<mixed, mixed\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: RheaSource.php
+
+		-
+			message: '#^Parameter \#1 \$rows of method Omnilab\\Rhea\\RheaSource\:\:toEntity\(\) expects list\<array\<string, array\{value\: string\}\>\>, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: RheaSource.php
+
+		-
+			message: '#^Parameter \#1 \$text of static method Omnilab\\Rhea\\RheaSource\:\:plain\(\) expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: RheaSource.php
+
+		-
+			message: '#^Parameter \#1 \$text of static method Omnilab\\Source\\HttpSource\:\:text\(\) expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: RheaSource.php
+
+		-
+			message: '#^Parameter \#1 \$value of function count expects array\|Countable, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: RheaSource.php
+
+		-
+			message: '#^Parameter \#2 \$value of static method Omnilab\\Model\\Identifier\:\:tryOf\(\) expects int\|string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: RheaSource.php
+
+		-
+			message: '#^Parameter \#3 \$value of class Omnilab\\Model\\Property constructor expects bool\|float\|int\|Omnilab\\Model\\Quantity\|string, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: RheaSource.php
+
+		-
+			message: '#^Cannot cast mixed to float\.$#'
+			identifier: cast.double
+			count: 1
+			path: RheaSourceFactory.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 1
+			path: RheaSourceFactory.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 3
+			path: RheaSourceFactory.php
+
+		-
+			message: '#^Binary operation "\." between non\-falsy\-string and array\<mixed\>\|string results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: Tests/RheaSourceTest.php
+
+		-
+			message: '#^Cannot access property \$domain on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/RheaSourceTest.php
+
+		-
+			message: '#^Cannot access property \$id on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 3
+			path: Tests/RheaSourceTest.php
+
+		-
+			message: '#^Cannot access property \$identifiers on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/RheaSourceTest.php
+
+		-
+			message: '#^Cannot access property \$kind on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/RheaSourceTest.php
+
+		-
+			message: '#^Cannot access property \$label on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/RheaSourceTest.php
+
+		-
+			message: '#^Cannot access property \$url on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/RheaSourceTest.php
+
+		-
+			message: '#^Cannot call method properties\(\) on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: method.nonObject
+			count: 4
+			path: Tests/RheaSourceTest.php
+
+		-
+			message: '#^Cannot call method related\(\) on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: method.nonObject
+			count: 7
+			path: Tests/RheaSourceTest.php
+
+		-
+			message: '#^Cannot call method value\(\) on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: method.nonObject
+			count: 6
+			path: Tests/RheaSourceTest.php
+
+		-
+			message: '#^Method Omnilab\\Rhea\\Tests\\RheaSourceTest\:\:source\(\) has parameter \$options with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: Tests/RheaSourceTest.php
+
+		-
+			message: '#^Parameter \#1 \$haystack of function str_contains expects string, array\<mixed\>\|string given\.$#'
+			identifier: argument.type
+			count: 2
+			path: Tests/RheaSourceTest.php
+
+		-
+			message: '#^Parameter \#1 \$options of method Omnilab\\Source\\SourceFactory\:\:create\(\) expects array\<string, mixed\>, array given\.$#'
+			identifier: argument.type
+			count: 1
+			path: Tests/RheaSourceTest.php
+
+		-
+			message: '#^Property Omnilab\\Rhea\\Tests\\RheaSourceTest\:\:\$calls \(list\<string\>\) does not accept non\-empty\-list\<mixed\>\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: Tests/RheaSourceTest.php
