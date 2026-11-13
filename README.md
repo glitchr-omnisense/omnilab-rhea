@@ -34,6 +34,34 @@ omnilab:
 With omnilab/kegg configured too, the `Collector` walks from a KEGG reaction into Rhea and back
 (each names the other: `DBLINKS RHEA: 18160`, Rhea's link to `kegg.reaction/R00200`).
 
+## Install and a first call
+
+```sh
+composer require omnilab/rhea
+```
+
+A real call, with no account and no key: the pyruvate kinase reaction in Rhea. `mailto` is your
+address, sent in the User-Agent so that the service can reach you before it blocks a caller; the
+source keeps to the limits its [`policy.json`](policy.json) declares.
+
+```php
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+
+use Omnilab\Rhea\RheaSourceFactory;
+
+$rhea = (new RheaSourceFactory())->create(['mailto' => 'you@example.org']);   // your address, in the User-Agent
+$reaction = $rhea->entity('RHEA:18157');
+echo $reaction->id->display(), ': ', $reaction->label, "\n";
+```
+
+Its output on 2026-11-13:
+
+```
+RHEA:18157: pyruvate + ATP = phosphoenolpyruvate + ADP + H(+)
+```
+
 ## Terms of use
 
 Rhea is under the [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
